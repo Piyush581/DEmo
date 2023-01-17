@@ -1,0 +1,97 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 50px;
+    border: 20px;
+    transition: height 2s,width 2s, background-color 2s,transform 2s;
+}
+
+div:hover{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    transform: rotate(4000deg);
+} */
+/* @keyframes multicolorchange {
+    0%{
+        background-color: red;
+    }
+
+
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: yellow;
+    }
+
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+
+
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: multicolorchange;
+    animation-duration: 2s;
+    animation-delay: 2s;
+} */
+@keyframes multicolorchange {
+    0%{
+        left: 0px;
+        top: 0px;
+        background-color: red;
+    }
+    25%{
+        left: 200%;
+        top: 0%;
+        background-color: rgb( green, blue);
+
+    }
+    50%{
+        left: 200px;
+        top: 200px;
+        background-color: pink;
+    }
+    75%{
+        left: 0px;
+        top: 200px;
+        background-color: blue;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: green;
+    }
+    
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 20px;
+    position: relative;
+    background-color: yellow;
+    animation-name: multicolorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+    
+
+
+ 
+
+    
+
+
